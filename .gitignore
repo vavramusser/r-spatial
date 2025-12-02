@@ -1,49 +1,120 @@
-# History files
+# Chapter 1
+1.01 Introduction to IPUMS and the IPUMS API.ipynb
+1.02 Introduction to Natural Earth.ipynb
+1.03 Introduction to OpenStreetMap (OSM).ipynb
+1.04 Introduction to Stadia Maps and Stamen Maps.ipynb
+1.05 Introduction to Google Maps.ipynb
+1.06 Introduction to Google Earth Engine (GEE).ipynb
+1.07 Introduction to the USGS National Land Cover Database (NLCD).ipynb
+1.08 Introduction to the EPA Air Quality System (AQS) Data Repository and the AQS API.ipynb
+
+Chapter 1 - Notes.md
+
+
+# Chapter 2
+2.01 Introduction to sf - Reading, Writing, and Inspecting Vector Data.ipynb
+2.02 Working with CRS - Reprojecting and Transforming Vector Data.ipynb
+2.03 Preparing Vector Data for Analysis.ipynb
+2.3 IPUMS International Data Extraction Using ipumsr.ipynb
+2.02 Working with CRS - Reprojecting and Transforming Vector Data.ipynb
+2.5 IPUMS Time Use Data Extraction Using ipumsr.ipynb
+2.6 IPUMS Health Surveys Data Extraction Using ipumsr.ipynb
+2.7 Reading IPUMS Global Health Extracts Data Using ipumsr.ipynb
+
+Chapter 2 - Notes.md
+
+
+# Chapter 3
+3.01 IPUMS USA Data Extraction Using ipumsr.ipynb
+3.02 IPUMS NHGIS Data Extraction Using ipumsr.ipynb
+3.03 IPUMS CPS Data Extraction Using ipumsr.ipynb
+3.04 IPUMS International Data Extraction Using ipumsr.ipynb
+3.04 IPUMS International Data Extraction Using ipumsr (old version).ipynb
+3.05 IPUMS Time Use Data Extraction Using ipumsr.ipynb
+3.05 IPUMS Time Use Data Extraction Using ipumsr (old version).ipynb
+3.06 IPUMS Health Surveys Data Extraction Using ipumsr.ipynb
+3.06 IPUMS Health Surveys Data Extraction Using ipumsr (old version).ipynb
+3.07 Reading IPUMS Global Health Extracts Data Using ipumsr.ipynb
+3.07 Reading IPUMS Global Health Extracts Data Using ipumsr (old version).ipynb
+3.08 Reading IPUMS Higher Education Data Extracts Using ipumsr.ipynb
+
+3.021 IPUMS NHGIS Data Extraction Using ipumsr - Supplemental Exercise 1.ipynb
+3.022 IPUMS NHGIS Data Extraction Using ipumsr - Supplemental Exercise 2.ipynb
+3.023 IPUMS NHGIS Data Extraction Using ipumsr - Supplemental Exercise 3.ipynb
+
+03 IPUMS Data Acquisition and Extraction/ipums_*
+
+*.dat.gz
+*.xml
+nhgis*.zip
+
+Chapter 3 - Notes.md
+
+
+# chapter 4
+4.01 Importing Data from Natural Earth with rnaturalearth and rnaturalearthdata.ipynb
+4.02 Importing Data from Open Street Map (OSM) with osmdata.ipynb
+
+Chapter 4 - Notes.md
+
+
+# chapter 5
+5.01 Data Cleaning and Preparation with IPUMS USA.ipynb
+5.02 Exploratory Data Analysis (EDA) with IPUMS USA.ipynb
+5.03 Spatial Data Exploration and Preprocessing with IPUMS NHGIS.ipynb
+
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.zip
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.dbf
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.prj
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.shp
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.shx
+05 Data Cleaning, Preparation, and Exploratory Data Analysis (EDA)/*.rds
+
+Chapter 5 - Notes.md
+
+
+# chapter 6
+In Development/
+
+6.X*
+
+06 Mapping and Visualization/*.zip
+06 Mapping and Visualization/*.dbf
+06 Mapping and Visualization/*.prj
+06 Mapping and Visualization/*.shp
+06 Mapping and Visualization/*.shx
+
+rosm.cache/
+
+Chapter 6 - Notes.md
+
+
+# chapter 7
+7.01 Geometric Binary Predicates - The Building Blocks of Geometric Queries.ipynb
+7.02 Spatial Joins.ipynb
+7.03 Distance and Nearest Features.ipynb
+7.04 Buffer Analysis.ipynb
+7.05 Geometry Operations.ipynb
+7.06 Geometry Manipulation.ipynb
+
+07 Foundational Spatial Analysis/*.zip
+07 Foundational Spatial Analysis/*.dbf
+07 Foundational Spatial Analysis/*.prj
+07 Foundational Spatial Analysis/*.shp
+07 Foundational Spatial Analysis/*.shx
+
+Chapter 7 - Notes.md
+
+
+# chapter 8
+Chapter 8 - Notes.md
+8.02 Overlay Analysis.ipynb
+
+# chapter 9
+Chapter 9 - Notes.md
+9.02 Raster Analysis and Aggregation.ipynb
+
+# Misc
+clean_repo.R
+package_test.ipynb
 .Rhistory
-.Rapp.history
-
-# Session Data files
-.RData
-.RDataTmp
-
-# User-specific files
-.Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
