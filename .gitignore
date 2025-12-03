@@ -84,7 +84,8 @@ In Development/
 06 Mapping and Visualization/*.shp
 06 Mapping and Visualization/*.shx
 
-rosm.cache/
+06 Mapping and Visualization/.ipynb_checkpoints/
+06 Mapping and Visualization/rosm.cache/
 
 Chapter 6 - Notes.md
 
